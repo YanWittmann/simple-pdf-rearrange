@@ -45,7 +45,7 @@ public class PdfEditorFrame extends JFrame {
     }
 
     public PdfEditorFrame(File sourceFile) throws IOException {
-        super("PDF Editor by Yan Wittmann");
+        super("PDF Editor");
         this.sourceFile = sourceFile;
 
         if (this.sourceFile != null) {

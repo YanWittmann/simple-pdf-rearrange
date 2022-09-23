@@ -15,6 +15,13 @@ these actions are available:
 
 Drag a PDF file into the frame to append it to the document. This is also the only way to load a new PDF.
 
+Shortcuts:
+
+- `ctrl+a` Select all
+- `ctrl+i` Invert selection
+- `ctrl+s` Save
+- `shift` + `lmb` select all pages in between last selection
+
 ## Build yourself using maven
 
 ```bash

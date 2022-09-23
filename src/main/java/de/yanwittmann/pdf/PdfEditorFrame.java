@@ -131,6 +131,8 @@ public class PdfEditorFrame extends JFrame {
             }
         });
 
+        this.setIconImage(new ImageIcon(getClass().getResource("/pdf.png")).getImage());
+
         this.setSize(PDF_PREVIEW_WIDTH * 3 + 60, 700);
         this.setLocationRelativeTo(null);
         this.setVisible(true);
